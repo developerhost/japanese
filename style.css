@@ -1,0 +1,29 @@
+body{
+    background: #efefef;
+}
+
+#btn{
+    width: 200px;
+    height: 200px;
+    background: #ef454a;
+    border-radius: 50%;/*丸をつくる*/
+    margin: 30px auto;/*余白作成*/
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    font-weight: bold;
+    font-size:42px;
+
+    cursor: pointer; /*カーソルを指に*/
+    box-shadow: 0 10px 0 #d1483e; /*影*/
+    user-select: none; /*文字も一緒に押し込み*/
+}
+
+#btn.hover {
+    opacity: 0.9;/*カーソルを指に*/
+}
+
+#btn:active {
+    box-shadow: 0 5px 0 #d1483e;
+    margin-top: 35px; /*押し込み*/
+}
